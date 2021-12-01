@@ -4,18 +4,26 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link fw-bold" href="#"
-              >Home <span class="sr-only"></span
-            ></a>
+            <router-link class="nav-link fw-bold" to="/">Home </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#">aboutus</a>
+            <router-link class="nav-link fw-bold" to="/story"
+              >Story
+            </router-link>
+            <!-- <a class="nav-link fw-bold" href="#">Story</a> -->
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#">services</a>
+            <router-link class="nav-link fw-bold" to="/services"
+              >Services</router-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#">products</a>
+            <router-link class="nav-link fw-bold" to="/products"
+              >Agribusiness</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">Activities</a>
           </li>
         </ul>
       </div>
