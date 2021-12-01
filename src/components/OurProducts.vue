@@ -4,7 +4,7 @@
       <div class="col-md-4 mt-5">
         <div class="card mt-3 p-2" style="width: 18rem">
           <img
-            src="@/assets/images/farm2.jpg"
+            src="@/assets/images/farm4.jpg"
             class="card-img-top"
             height="250"
             alt="..."
