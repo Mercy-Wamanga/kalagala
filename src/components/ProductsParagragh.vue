@@ -3,22 +3,13 @@
     <span class="leaf-up"
       ><img src="@/assets/images/leaf.png" alt="" srcset="" class="rotate"
     /></span>
-    <h1>Our Products ....</h1>
+    <h1>Agribusiness Products ....</h1>
     <Hr />
     <br />
     <p class="text-start mt-2">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat ullamco est sit aliqua dolor do ullamco est sit
-      aliqua dolor do ullamco est sit aliqua dolor do ullamco est sit aliqua
-      dolor do aliqua dolor do ullamco est sit aliqua dolor do ullamco est sit
-      aliqua dolor do
-    </p>
-    <p class="text-start mt-2">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat ullamco est sit aliqua dolor do ullamco est sit
-      aliqua dolor do ullamco est sit aliqua dolor do ullamco est sit aliqua
-      dolor do aliqua dolor do ullamco est sit aliqua dolor do ullamco est sit
-      aliqua dolor do
+      Kalagala Estates Limited carry out agriculture related business like Crop
+      farming, Livestock Farming, Trading of agriculture products and other
+      agriculture related business.
     </p>
   </div>
 </template>

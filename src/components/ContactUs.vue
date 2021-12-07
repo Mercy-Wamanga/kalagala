@@ -1,7 +1,7 @@
 <template>
   <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-5 mt-5 me-s">
+    <div class="col-sm-12 col-md-1"></div>
+    <div class="col-sm-12 col-md-5 mt-5 me-s">
       <img
         src="@/assets/images/farm5.jpg"
         alt=""
@@ -9,7 +9,7 @@
         height="400px"
       />
     </div>
-    <div class="col-md-4 ms-5">
+    <div class="col-sm-12 col-md-4 ms-5">
       <form class="text-start mt-5">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -41,7 +41,7 @@
         <button type="submit" class="btn btn-success">Submit</button>
       </form>
     </div>
-    <div class="col-md-2"></div>
+    <div class="col-sm-12 col-md-2"></div>
   </div>
 </template>
 

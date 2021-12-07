@@ -1,32 +1,44 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <img
-          src="@/assets/images/kala-logo.png"
-          width="229"
-          height="159"
-          class="me-5 p-2"
-        />
-      </div>
-      <div class="col-md-8">
+      <div
+        class="col-sm-12 col-md-12"
+        data-aos="fade-left"
+        data-aos-ease="ease"
+        data-aos-duration="1000"
+      >
         <NavBar class="mt-5 ms-5" id="navbar" />
       </div>
     </div>
     <div class="row mt-5">
-      <div class="col-md-6">
+      <div
+        class="col-sm-12 col-md-6"
+        data-aos="fade-right"
+        data-aos-ease="ease"
+        data-aos-duration="1000"
+      >
         <PH />
       </div>
-      <div class="col-md-6 mt-5">
+      <div
+        class="col-sm-12 col-md-6 mt-5"
+        data-aos="fade-left"
+        data-aos-ease="ease"
+        data-aos-duration="1000"
+      >
         <img
-          src="@/assets/images/productz.jpg"
+          src="@/assets/images/products.png"
           width="500"
           height="200"
           class="mt-5 rotate imgcss"
         />
       </div>
     </div>
-    <div class="row">
+    <div
+      class="row"
+      data-aos="fade-down"
+      data-aos-ease="ease"
+      data-aos-duration="1000"
+    >
       <PL id="product" />
     </div>
     <div class="row mt-5">
@@ -63,6 +75,6 @@ export default {
   transform: rotate(330deg);
 }
 #product {
-  margin-left: 15%;
+  margin-left: 5%;
 }
 </style>

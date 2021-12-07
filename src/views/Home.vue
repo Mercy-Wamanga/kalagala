@@ -2,24 +2,7 @@
   <div class="container">
     <div class="row">
       <div
-        class="col-md-6"
-        data-aos="fade-right"
-        data-aos-ease="ease"
-        data-aos-duration="1000"
-      >
-        <img
-          src="@/assets/images/kala-logo.png"
-          width="229"
-          height="159"
-          class="me-5 p-2"
-        />
-
-        <div class="heading">
-          <HParagraph class="mt-5" id="heading" />
-        </div>
-      </div>
-      <div
-        class="col-md-6"
+        class="col-sm-12 col-md-12"
         data-aos="fade-left"
         data-aos-ease="ease"
         data-aos-duration="1000"
@@ -27,10 +10,10 @@
         <div class="menu">
           <NavBar id="navbar1" class="mt-3" />
         </div>
-        <div id="shape">
+        <!-- <div id="shape">
           <Shape />
-        </div>
-        <div id="fields">
+        </div> -->
+        <!-- <div id="fields">
           <img
             src="@/assets/images/fields.jpg"
             width="400"
@@ -38,11 +21,10 @@
             class="rounded-circle mb-5"
             id="fields"
           />
-        </div>
+        </div> -->
       </div>
-      <lines class="mt-5" />
     </div>
-
+    <lines class="mt-5" />
     <div class="row row-size">
       <h2 class="mt-5">About<span class="heading-color">Us</span></h2>
       <div
@@ -75,9 +57,15 @@
       data-aos-duration="1000"
     >
       <h2 class="">
-        Vision <span class="icons"><fa icon="circle" /></span>
+        Vision
+        <span class="icons"
+          ><fa icon="circle" style="width: 10px; height: 10px"
+        /></span>
         <span id="middle-text">&nbsp;Mission &nbsp;</span>
-        <span class="icons"><fa icon="circle" /></span> Core Values
+        <span class="icons"
+          ><fa icon="circle" style="width: 10px; height: 10px"
+        /></span>
+        Core Values
       </h2>
       <mvs />
     </div>
@@ -90,11 +78,7 @@
     >
       <div id="service-paragraph" class="mt-5 text-center">
         <h2>Servic<span class="heading-color">es</span></h2>
-        <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+        <p>Kalagala Estates Limited offers numerous number of services.</p>
       </div>
       <div class="row mt-5">
         <services />
@@ -108,11 +92,7 @@
       >
         <div id="service-paragraph" class="mt-5 text-center">
           <h2>Produc<span class="heading-color">ts</span></h2>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
+          <p>We have agribusiness products on sale...</p>
         </div>
         <div class="row mt-5">
           <products class="mb-5" />
@@ -136,9 +116,10 @@
   </div>
 </template>
 
+//
 <script>
-import HParagraph from "@/components/HeadingParagraph.vue";
-import Shape from "@/components/Shape.vue";
+// import HParagraph from "@/components/HeadingParagraph.vue";
+// import Shape from "@/components/Shape.vue";
 import NavBar from "@/components/NavBar.vue";
 import AboutusParagragh from "@/components/AboutUsParagraph.vue";
 import mvs from "@/components/MissionVisionServices.vue";
@@ -151,8 +132,8 @@ import lines from "@/components/HorizontalLine.vue";
 export default {
   name: "Home",
   components: {
-    HParagraph,
-    Shape,
+    // HParagraph,
+    // Shape,
     NavBar,
     AboutusParagragh,
     mvs,
@@ -186,7 +167,6 @@ export default {
 }
 .menu {
   left: 60%;
-  position: absolute;
 }
 
 #paragraph {
@@ -210,5 +190,8 @@ export default {
 }
 #navbar1 {
   z-index: 1;
+}
+.icons {
+  color: #37784f;
 }
 </style>

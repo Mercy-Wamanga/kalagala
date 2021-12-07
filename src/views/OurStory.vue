@@ -2,20 +2,7 @@
   <div class="container">
     <div class="row">
       <div
-        class="col-md-4"
-        data-aos="fade-right"
-        data-aos-ease="ease"
-        data-aos-duration="1000"
-      >
-        <img
-          src="@/assets/images/kala-logo.png"
-          width="229"
-          height="159"
-          class="me-5 p-2"
-        />
-      </div>
-      <div
-        class="col-md-8"
+        class="col-sm-12 col-md-12"
         data-aos="fade-left"
         data-aos-ease="ease"
         data-aos-duration="1000"
@@ -67,11 +54,8 @@ export default {
 </script>
 
 <style scoped>
-/* div {
-  border: 1px solid blue;
-} */
 #navbar {
-  float: right;
+  float: left;
 }
 .image-down {
   margin-top: 15%;

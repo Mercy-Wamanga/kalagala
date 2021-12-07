@@ -76,7 +76,7 @@
         data-aos-duration="1000"
       >
         <div class="img-1">
-          <img src="@/assets/images/real-estate1.jpg" alt="" />
+          <img src="@/assets/images/design.jpg" alt="" />
         </div>
       </div>
       <div

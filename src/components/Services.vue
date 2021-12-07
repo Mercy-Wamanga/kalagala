@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-1"></div>
+      <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
-          style="max-width: 19rem; background-color: #ebf2ee"
+          style="max-width: 18rem; background-color: #ebf2ee"
         >
           <div class="card-body">
             <img
@@ -28,10 +28,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
-          style="max-width: 19rem; background-color: #ebf2ee"
+          style="max-width: 18rem; background-color: #ebf2ee"
         >
           <div class="card-body">
             <img
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
           style="max-width: 18rem; background-color: #ebf2ee"
@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
           style="max-width: 18rem; background-color: #ebf2ee"
@@ -103,10 +103,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
-          style="max-width: 25rem; background-color: #ebf2ee"
+          style="max-width: 18rem; background-color: #ebf2ee"
         >
           <div class="card-body">
             <img
@@ -128,7 +128,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-1"></div>
+      <div class="col-sm-12 col-md-1"></div>
     </div>
   </div>
 </template>
