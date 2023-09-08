@@ -7,6 +7,7 @@
             <div
               class="card shadow p-3 mt-5 bg-white rounded float-end"
               style="width: 16rem; height: 320px"
+              id="vision"
             >
               <div class="card-body">
                 <img
@@ -48,6 +49,7 @@
             <div
               class="card shadow p-3 mt-5 bg-white rounded float-start"
               style="width: 16rem; height: 320px"
+              id="values"
             >
               <div class="card-body">
                 <img src="@/assets/images/value.png" width="137" height="110" />
@@ -85,5 +87,14 @@ export default {};
 .card:hover {
   height: 410px;
   box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 400px){
+  #vision{
+    margin-right: 60px;
+  }
+    #values{
+    margin-left: 60px;
+  }
 }
 </style>

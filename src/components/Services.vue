@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-1"></div>
+      <!-- <div class="col-sm-12 col-md-1"></div> -->
       <div class="col-sm-12 col-md-2 mt-2">
         <div
           class="card card-sty shadow-sm p-2 border-0"
@@ -22,8 +22,7 @@
               tour and travel
             </h5>
             <p class="card-text" style="font-size: 12px; color: #37784f">
-              Bus tours, car hire, Camping, fishing and extreme watersports on
-              the nile
+              Exercitation veniam consequat sunt nostrud amet
             </p>
           </div>
         </div>
@@ -140,5 +139,12 @@ export default {};
 <style scoped>
 .card-sty {
   background-color: #ebf2ee;
+}
+@media screen and (min-width: 400px){
+
+  .col-sm-12{
+    margin-left: 2%;
+  }
+
 }
 </style>

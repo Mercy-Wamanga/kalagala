@@ -7,7 +7,7 @@
         data-aos-ease="ease"
         data-aos-duration="1000"
       >
-        <NavBar class="mt-5 ms-5" id="navbar" />
+        <NavBar class="mt-5 ms-5 navbarposition" />
       </div>
     </div>
     <div class="row mt-5">
@@ -75,9 +75,7 @@ export default {
 /* div {
   border: 1px solid blue;
 } */
-#navbar {
-  float: right;
-}
+
 /* .rotate {
   background-color: transparent; 
   transform: rotate(330deg);
@@ -85,4 +83,8 @@ export default {
 #product {
   margin-left: 15%;
 }
+
+ .navbarposition {
+  float: right;
+} 
 </style>

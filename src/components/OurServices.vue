@@ -156,4 +156,12 @@ export default {
   width: 368px;
   height: 260px;
 } */
+
+@media screen and (min-width: 400px){
+  .img-1 img{
+  width: 300px;
+  height: 260px;
+} 
+}
+
 </style>

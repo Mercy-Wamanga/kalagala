@@ -49,4 +49,17 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+@media screen and (min-width: 400px){
+
+  img{
+    width:400px;
+    height:200px;
+  }
+  form{
+    width:400px;
+    margin-left:-50px;
+  }
+
+}
+</style>

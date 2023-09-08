@@ -78,4 +78,12 @@ export default {};
 .col-md-2 {
   color: #37784f;
 }
+
+@media screen and (min-width: 400px){
+
+  .img-container{
+    margin-left: 2%;
+  }
+
+}
 </style>

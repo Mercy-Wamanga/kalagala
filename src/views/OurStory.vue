@@ -60,4 +60,11 @@ export default {
 .image-down {
   margin-top: 15%;
 }
+
+@media screen and (min-width: 400px){
+img{
+  width:400px;
+}
+  
+}
 </style>

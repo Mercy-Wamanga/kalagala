@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <div class="col-sm-12 col-md-12">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
       <div class="navbar">
         <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
           <div class="container-fluid">
@@ -61,6 +62,7 @@
         </nav>
       </div>
     </div>
+    </div>
 
     <!-- <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
@@ -80,7 +82,8 @@ export default {
 </script>
 
 <style scoped>
-.menu {
-  float: right;
+ul li{
+  float:right;
 }
+
 </style>

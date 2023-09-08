@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .leaf-up {
   margin-right: 35%;
 }
@@ -58,5 +58,12 @@ export default {
 .rotate {
   /* background-color: transparent; */
   transform: rotate(90deg);
+}
+
+@media screen and (min-width: 400px){
+  p{
+    padding:15px;
+  }
+  
 }
 </style>

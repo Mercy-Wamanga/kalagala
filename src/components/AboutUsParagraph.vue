@@ -23,4 +23,16 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+@media screen and (min-width: 400px){
+  #aboutus{
+    max-width: 460px;
+  }
+  .paragragh p{
+    width:400px;
+    padding-left:40px;
+  }
+
+}
+
+</style>
